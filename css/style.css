@@ -75,17 +75,25 @@ body {
     line-height: 22px;
     font-weight: 600;
 }
-.icons-link {
-    text-decoration: none;
+.icons-panel {
     display: flex;
     align-items: center;
 }
-.icons-link:last-child::after {
+.icon-link {
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+}
+.header-icon {
+    fill: #002766;
+}
+.header-icon:hover {
+    fill: white;
+}
+.icon-link:last-child::before {
     content: "";
     width: 1px;
     height: 16px;
     background: #003A8C;
-}
-.icon-link {
-    margin-left: 15px;
+    margin-right: 12px;
 }
