@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.header {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #0050B3;
+}
+.header-block {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-input {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 5px 30px 5px 30px;
+    width: 100%;
+    width: 366px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    background-image: url(../img/Search-icon.svg);
+    background-position: right 12px center;
+    background-repeat: no-repeat;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.navigation-panel {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+.navigation-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+.navigation-link::before {
+    content: "";
+    width: 1px;
+    height: 16px;
+    background: #003A8C;
+    margin-right: 12px;
+}
+.navigation-link:last-child::after {
+    content: "";
+    width: 1px;
+    height: 16px;
+    background: #003A8C;
+    margin-left: 12px;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+.user-avatar {
+    margin-right: 8px;
+}
+.user-name {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.icons-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.icons-link:last-child::after {
+    content: "";
+    width: 1px;
+    height: 16px;
+    background: #003A8C;
+}
+.icon-link {
+    margin-left: 15px;
+}
