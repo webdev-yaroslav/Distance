@@ -1,2 +1,2 @@
-# Distance
-социальная сеть "Дистанция" https://webdev-yaroslav.github.io/Distance/
+# Социальная сеть "Дистанция" 
+https://webdev-yaroslav.github.io/Distance/
